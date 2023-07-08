@@ -26,7 +26,7 @@ namespace ProgramacionOrientadaAObjetos
                 int lado1 = Convert.ToInt32(textBox1.Text);
                 int lado2 = Convert.ToInt32(textBox2.Text);
                 int lado3 = Convert.ToInt32(textBox3.Text);
-                MessageBox.Show((lado1 + lado2 + lado3).ToString());
+                MessageBox.Show((lado1 + lado2 + lado3).ToString(), "Este es el titulo de la ventana");
             }catch(Exception Error){
                 MessageBox.Show("Error", "Errorsito", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             }
