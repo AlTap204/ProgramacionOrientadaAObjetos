@@ -27,7 +27,7 @@ namespace ProgramacionOrientadaAObjetos
 
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void button1_Click_1(object sender, EventArgs e)
         {
             try
             {
@@ -40,11 +40,13 @@ namespace ProgramacionOrientadaAObjetos
                 float division = dato1 / dato2;
 
                 label4.Text = dato1 + "+" + dato2 + "=" + suma + "\n";
-                label4.Text = dato1 + "-" + dato2 + "=" + resta + "\n";
-                label4.Text = dato1 + "*" + dato2 + "=" + multiplicacion + "\n";
-                label4.Text = dato1 + "/" + dato2 + "=" + division + "\n";
+                label4.Text += dato1 + "-" + dato2 + "=" + resta + "\n";
+                label4.Text += dato1 + "*" + dato2 + "=" + multiplicacion + "\n";
+                label4.Text += dato1 + "/" + dato2 + "=" + division + "\n";
 
-            }catch(Exception Error) { 
+            }
+            catch (Exception Error)
+            {
                 MessageBox.Show("Error", "Errorsito", MessageBoxButtons.OK, MessageBoxIcon.Error);
 
             }
