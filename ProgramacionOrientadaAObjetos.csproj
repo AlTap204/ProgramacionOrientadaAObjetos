@@ -58,6 +58,12 @@
     <Compile Include="FormAritmetica.Designer.cs">
       <DependentUpon>FormAritmetica.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormFormulaGeneral.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormFormulaGeneral.Designer.cs">
+      <DependentUpon>FormFormulaGeneral.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormTrianguloAct3.cs">
       <SubType>Form</SubType>
     </Compile>

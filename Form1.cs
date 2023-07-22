@@ -34,7 +34,7 @@ namespace ProgramacionOrientadaAObjetos
 
         private void practicaDeFormulaGeneralToolStripMenuItem_Click(object sender, EventArgs e)
         {
-
+            
         }
     }
 }

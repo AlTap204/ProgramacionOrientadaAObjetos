@@ -119,7 +119,7 @@
             // practica4DeFibonacciToolStripMenuItem
             // 
             this.practica4DeFibonacciToolStripMenuItem.Name = "practica4DeFibonacciToolStripMenuItem";
-            this.practica4DeFibonacciToolStripMenuItem.Size = new System.Drawing.Size(396, 34);
+            this.practica4DeFibonacciToolStripMenuItem.Size = new System.Drawing.Size(411, 34);
             this.practica4DeFibonacciToolStripMenuItem.Text = "Practica 4 de Fibonacci";
             // 
             // Form1
