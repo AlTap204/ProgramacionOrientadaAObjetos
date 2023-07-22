@@ -32,6 +32,12 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
+            this.toolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.practica1ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.practicToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.practicaDeFormulaGeneralToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.practica4DeFibonacciToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
             // label1
@@ -39,7 +45,7 @@
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Viner Hand ITC", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.Lime;
-            this.label1.Location = new System.Drawing.Point(21, 24);
+            this.label1.Location = new System.Drawing.Point(12, 315);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(416, 78);
             this.label1.TabIndex = 0;
@@ -70,11 +76,51 @@
             // 
             this.menuStrip1.GripMargin = new System.Windows.Forms.Padding(2, 2, 0, 2);
             this.menuStrip1.ImageScalingSize = new System.Drawing.Size(24, 24);
+            this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.toolStripMenuItem1});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(800, 32);
+            this.menuStrip1.Size = new System.Drawing.Size(800, 33);
             this.menuStrip1.TabIndex = 3;
             this.menuStrip1.Text = "menuStrip1";
+            // 
+            // toolStripMenuItem1
+            // 
+            this.toolStripMenuItem1.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.practica1ToolStripMenuItem,
+            this.practicToolStripMenuItem,
+            this.practicaDeFormulaGeneralToolStripMenuItem,
+            this.practica4DeFibonacciToolStripMenuItem});
+            this.toolStripMenuItem1.Name = "toolStripMenuItem1";
+            this.toolStripMenuItem1.Size = new System.Drawing.Size(145, 29);
+            this.toolStripMenuItem1.Text = "Menu principal";
+            // 
+            // practica1ToolStripMenuItem
+            // 
+            this.practica1ToolStripMenuItem.Name = "practica1ToolStripMenuItem";
+            this.practica1ToolStripMenuItem.Size = new System.Drawing.Size(411, 34);
+            this.practica1ToolStripMenuItem.Text = "Practica 1 de Triangulos";
+            this.practica1ToolStripMenuItem.Click += new System.EventHandler(this.practica1ToolStripMenuItem_Click);
+            // 
+            // practicToolStripMenuItem
+            // 
+            this.practicToolStripMenuItem.Name = "practicToolStripMenuItem";
+            this.practicToolStripMenuItem.Size = new System.Drawing.Size(411, 34);
+            this.practicToolStripMenuItem.Text = "Practica 2 de Operaciones Aritmeticas";
+            this.practicToolStripMenuItem.Click += new System.EventHandler(this.practicToolStripMenuItem_Click);
+            // 
+            // practicaDeFormulaGeneralToolStripMenuItem
+            // 
+            this.practicaDeFormulaGeneralToolStripMenuItem.Name = "practicaDeFormulaGeneralToolStripMenuItem";
+            this.practicaDeFormulaGeneralToolStripMenuItem.Size = new System.Drawing.Size(411, 34);
+            this.practicaDeFormulaGeneralToolStripMenuItem.Text = "Practica 3 de Formula General";
+            this.practicaDeFormulaGeneralToolStripMenuItem.Click += new System.EventHandler(this.practicaDeFormulaGeneralToolStripMenuItem_Click);
+            // 
+            // practica4DeFibonacciToolStripMenuItem
+            // 
+            this.practica4DeFibonacciToolStripMenuItem.Name = "practica4DeFibonacciToolStripMenuItem";
+            this.practica4DeFibonacciToolStripMenuItem.Size = new System.Drawing.Size(396, 34);
+            this.practica4DeFibonacciToolStripMenuItem.Text = "Practica 4 de Fibonacci";
             // 
             // Form1
             // 
@@ -89,6 +135,8 @@
             this.Name = "Form1";
             this.Text = "FormInicio";
             this.Load += new System.EventHandler(this.Form1_Load);
+            this.menuStrip1.ResumeLayout(false);
+            this.menuStrip1.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -100,6 +148,11 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.MenuStrip menuStrip1;
+        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem1;
+        private System.Windows.Forms.ToolStripMenuItem practica1ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem practicToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem practicaDeFormulaGeneralToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem practica4DeFibonacciToolStripMenuItem;
     }
 }
 

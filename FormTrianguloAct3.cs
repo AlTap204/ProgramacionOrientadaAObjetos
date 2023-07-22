@@ -1,16 +1,9 @@
 ﻿
 using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 
-namespace ProgramacionOrientadaAObjetos 
+namespace ProgramacionOrientadaAObjetos
 {
     public partial class FormTrianguloAct3 : Form
     {
@@ -31,7 +24,7 @@ namespace ProgramacionOrientadaAObjetos
 
         private void button1_Click(object sender, EventArgs e)
         {
-  
+
             try
             {
                 float lado1 = float.Parse(textBox1.Text);
@@ -96,6 +89,11 @@ namespace ProgramacionOrientadaAObjetos
         }
 
         private void label5_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void FormTrianguloAct3_Load(object sender, EventArgs e)
         {
 
         }
