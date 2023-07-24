@@ -78,6 +78,9 @@
     <EmbeddedResource Include="FormAritmetica.resx">
       <DependentUpon>FormAritmetica.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FormFormulaGeneral.resx">
+      <DependentUpon>FormFormulaGeneral.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FormTrianguloAct3.resx">
       <DependentUpon>FormTrianguloAct3.cs</DependentUpon>
     </EmbeddedResource>
