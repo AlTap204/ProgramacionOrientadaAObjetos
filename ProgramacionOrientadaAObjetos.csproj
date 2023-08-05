@@ -58,11 +58,23 @@
     <Compile Include="FormAritmetica.Designer.cs">
       <DependentUpon>FormAritmetica.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormFibonacci.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormFibonacci.Designer.cs">
+      <DependentUpon>FormFibonacci.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormFormulaGeneral.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="FormFormulaGeneral.Designer.cs">
       <DependentUpon>FormFormulaGeneral.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormIlusiones.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormIlusiones.Designer.cs">
+      <DependentUpon>FormIlusiones.cs</DependentUpon>
     </Compile>
     <Compile Include="FormTrianguloAct3.cs">
       <SubType>Form</SubType>
@@ -80,6 +92,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FormFormulaGeneral.resx">
       <DependentUpon>FormFormulaGeneral.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormIlusiones.resx">
+      <DependentUpon>FormIlusiones.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormTrianguloAct3.resx">
       <DependentUpon>FormTrianguloAct3.cs</DependentUpon>

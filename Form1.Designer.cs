@@ -37,17 +37,18 @@
             this.practicToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.practicaDeFormulaGeneralToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.practica4DeFibonacciToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.practica5DeIlusionesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Viner Hand ITC", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.Color.Lime;
-            this.label1.Location = new System.Drawing.Point(12, 315);
+            this.label1.Font = new System.Drawing.Font("Viner Hand ITC", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.DarkBlue;
+            this.label1.Location = new System.Drawing.Point(11, 301);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(416, 78);
+            this.label1.Size = new System.Drawing.Size(552, 108);
             this.label1.TabIndex = 0;
             this.label1.Text = "Menu principal de las practicas realizadas en la\r\nmateria de Programacion Orienta" +
     "da a Objetos.\r\nSe presentara el ultimo sabado de clases :)";
@@ -90,10 +91,12 @@
             this.practica1ToolStripMenuItem,
             this.practicToolStripMenuItem,
             this.practicaDeFormulaGeneralToolStripMenuItem,
-            this.practica4DeFibonacciToolStripMenuItem});
+            this.practica4DeFibonacciToolStripMenuItem,
+            this.practica5DeIlusionesToolStripMenuItem});
             this.toolStripMenuItem1.Name = "toolStripMenuItem1";
             this.toolStripMenuItem1.Size = new System.Drawing.Size(145, 29);
             this.toolStripMenuItem1.Text = "Menu principal";
+            this.toolStripMenuItem1.Click += new System.EventHandler(this.toolStripMenuItem1_Click);
             // 
             // practica1ToolStripMenuItem
             // 
@@ -121,11 +124,20 @@
             this.practica4DeFibonacciToolStripMenuItem.Name = "practica4DeFibonacciToolStripMenuItem";
             this.practica4DeFibonacciToolStripMenuItem.Size = new System.Drawing.Size(411, 34);
             this.practica4DeFibonacciToolStripMenuItem.Text = "Practica 4 de Fibonacci";
+            this.practica4DeFibonacciToolStripMenuItem.Click += new System.EventHandler(this.practica4DeFibonacciToolStripMenuItem_Click);
+            // 
+            // practica5DeIlusionesToolStripMenuItem
+            // 
+            this.practica5DeIlusionesToolStripMenuItem.Name = "practica5DeIlusionesToolStripMenuItem";
+            this.practica5DeIlusionesToolStripMenuItem.Size = new System.Drawing.Size(411, 34);
+            this.practica5DeIlusionesToolStripMenuItem.Text = "Practica 5 de Ilusiones";
+            this.practica5DeIlusionesToolStripMenuItem.Click += new System.EventHandler(this.practica5DeIlusionesToolStripMenuItem_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.WindowText;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
@@ -153,6 +165,7 @@
         private System.Windows.Forms.ToolStripMenuItem practicToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem practicaDeFormulaGeneralToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem practica4DeFibonacciToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem practica5DeIlusionesToolStripMenuItem;
     }
 }
 

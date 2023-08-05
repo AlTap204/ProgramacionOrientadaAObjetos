@@ -34,7 +34,22 @@ namespace ProgramacionOrientadaAObjetos
 
         private void practicaDeFormulaGeneralToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            
+            new FormFormulaGeneral().ShowDialog();
+        }
+
+        private void toolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void practica4DeFibonacciToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void practica5DeIlusionesToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
