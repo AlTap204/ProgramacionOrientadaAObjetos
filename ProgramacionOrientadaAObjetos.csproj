@@ -76,6 +76,12 @@
     <Compile Include="FormIlusiones.Designer.cs">
       <DependentUpon>FormIlusiones.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormIlusiones2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormIlusiones2.Designer.cs">
+      <DependentUpon>FormIlusiones2.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormTrianguloAct3.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -95,6 +101,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FormIlusiones.resx">
       <DependentUpon>FormIlusiones.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormIlusiones2.resx">
+      <DependentUpon>FormIlusiones2.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormTrianguloAct3.resx">
       <DependentUpon>FormTrianguloAct3.cs</DependentUpon>

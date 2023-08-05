@@ -49,7 +49,7 @@ namespace ProgramacionOrientadaAObjetos
 
         private void practica5DeIlusionesToolStripMenuItem_Click(object sender, EventArgs e)
         {
-
+            new FormIlusiones().ShowDialog();
         }
     }
 }
