@@ -51,5 +51,15 @@ namespace ProgramacionOrientadaAObjetos
         {
             new FormIlusiones().ShowDialog();
         }
+
+        private void practica6DeIlusiones2ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            new FormIlusiones2().ShowDialog();
+        }
+
+        private void practica7DeEncuestaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            new FormEncuesta().ShowDialog();
+        }
     }
 }

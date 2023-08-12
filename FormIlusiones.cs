@@ -74,10 +74,10 @@ namespace ProgramacionOrientadaAObjetos
             int h = pictureBox6.Height;
             for (int i = 0; i < w / 2; i += 10)
             {
-                e.Graphics.DrawLine(red, i, h / 2, w / 2, h / 2 - i);
-                e.Graphics.DrawLine(red, w - i, h / 2, w / 2, h / 2 - i);
-                e.Graphics.DrawLine(red, w - i, h / 2, w / 2, h / 2 - i);
-                e.Graphics.DrawLine(red, w - i, h / 2, w / 2, h / 2 - i);
+                e.Graphics.DrawLine(colores[0], i, h / 2, w / 2, h / 2 - i);
+                e.Graphics.DrawLine(colores[0], w - i, h / 2, w / 2, h / 2 - i);
+                e.Graphics.DrawLine(colores[0], w - i, h / 2, w / 2, h / 2 - i);
+                e.Graphics.DrawLine(colores[0], w - i, h / 2, w / 2, h / 2 - i);
             }
         }
     }

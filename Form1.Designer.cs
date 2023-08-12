@@ -38,6 +38,8 @@
             this.practicaDeFormulaGeneralToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.practica4DeFibonacciToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.practica5DeIlusionesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.practica6DeIlusiones2ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.practica7DeEncuestaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -92,7 +94,9 @@
             this.practicToolStripMenuItem,
             this.practicaDeFormulaGeneralToolStripMenuItem,
             this.practica4DeFibonacciToolStripMenuItem,
-            this.practica5DeIlusionesToolStripMenuItem});
+            this.practica5DeIlusionesToolStripMenuItem,
+            this.practica6DeIlusiones2ToolStripMenuItem,
+            this.practica7DeEncuestaToolStripMenuItem});
             this.toolStripMenuItem1.Name = "toolStripMenuItem1";
             this.toolStripMenuItem1.Size = new System.Drawing.Size(145, 29);
             this.toolStripMenuItem1.Text = "Menu principal";
@@ -133,6 +137,20 @@
             this.practica5DeIlusionesToolStripMenuItem.Text = "Practica 5 de Ilusiones";
             this.practica5DeIlusionesToolStripMenuItem.Click += new System.EventHandler(this.practica5DeIlusionesToolStripMenuItem_Click);
             // 
+            // practica6DeIlusiones2ToolStripMenuItem
+            // 
+            this.practica6DeIlusiones2ToolStripMenuItem.Name = "practica6DeIlusiones2ToolStripMenuItem";
+            this.practica6DeIlusiones2ToolStripMenuItem.Size = new System.Drawing.Size(411, 34);
+            this.practica6DeIlusiones2ToolStripMenuItem.Text = "Practica 6 de Ilusiones2";
+            this.practica6DeIlusiones2ToolStripMenuItem.Click += new System.EventHandler(this.practica6DeIlusiones2ToolStripMenuItem_Click);
+            // 
+            // practica7DeEncuestaToolStripMenuItem
+            // 
+            this.practica7DeEncuestaToolStripMenuItem.Name = "practica7DeEncuestaToolStripMenuItem";
+            this.practica7DeEncuestaToolStripMenuItem.Size = new System.Drawing.Size(411, 34);
+            this.practica7DeEncuestaToolStripMenuItem.Text = "Practica 7 de Encuesta";
+            this.practica7DeEncuestaToolStripMenuItem.Click += new System.EventHandler(this.practica7DeEncuestaToolStripMenuItem_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
@@ -166,6 +184,8 @@
         private System.Windows.Forms.ToolStripMenuItem practicaDeFormulaGeneralToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem practica4DeFibonacciToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem practica5DeIlusionesToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem practica6DeIlusiones2ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem practica7DeEncuestaToolStripMenuItem;
     }
 }
 
