@@ -14,7 +14,7 @@ namespace ProgramacionOrientadaAObjetos
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             //la linea 17 indica cual es la forma de inicio 
-            Application.Run(new FormEncuesta());
+            Application.Run(new FormCatalogo());
         }
     }
 }

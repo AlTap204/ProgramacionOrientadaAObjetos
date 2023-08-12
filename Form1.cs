@@ -61,5 +61,10 @@ namespace ProgramacionOrientadaAObjetos
         {
             new FormEncuesta().ShowDialog();
         }
+
+        private void practica8DeCatalogoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            new FormCatalogo().ShowDialog();
+        }
     }
 }

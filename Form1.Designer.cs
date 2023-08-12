@@ -40,6 +40,7 @@
             this.practica5DeIlusionesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.practica6DeIlusiones2ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.practica7DeEncuestaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.practica8DeCatalogoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -96,7 +97,8 @@
             this.practica4DeFibonacciToolStripMenuItem,
             this.practica5DeIlusionesToolStripMenuItem,
             this.practica6DeIlusiones2ToolStripMenuItem,
-            this.practica7DeEncuestaToolStripMenuItem});
+            this.practica7DeEncuestaToolStripMenuItem,
+            this.practica8DeCatalogoToolStripMenuItem});
             this.toolStripMenuItem1.Name = "toolStripMenuItem1";
             this.toolStripMenuItem1.Size = new System.Drawing.Size(145, 29);
             this.toolStripMenuItem1.Text = "Menu principal";
@@ -151,6 +153,13 @@
             this.practica7DeEncuestaToolStripMenuItem.Text = "Practica 7 de Encuesta";
             this.practica7DeEncuestaToolStripMenuItem.Click += new System.EventHandler(this.practica7DeEncuestaToolStripMenuItem_Click);
             // 
+            // practica8DeCatalogoToolStripMenuItem
+            // 
+            this.practica8DeCatalogoToolStripMenuItem.Name = "practica8DeCatalogoToolStripMenuItem";
+            this.practica8DeCatalogoToolStripMenuItem.Size = new System.Drawing.Size(411, 34);
+            this.practica8DeCatalogoToolStripMenuItem.Text = "Practica 8 de Catalogo";
+            this.practica8DeCatalogoToolStripMenuItem.Click += new System.EventHandler(this.practica8DeCatalogoToolStripMenuItem_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
@@ -186,6 +195,7 @@
         private System.Windows.Forms.ToolStripMenuItem practica5DeIlusionesToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem practica6DeIlusiones2ToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem practica7DeEncuestaToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem practica8DeCatalogoToolStripMenuItem;
     }
 }
 
