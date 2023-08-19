@@ -44,7 +44,7 @@ namespace ProgramacionOrientadaAObjetos
 
         private void practica4DeFibonacciToolStripMenuItem_Click(object sender, EventArgs e)
         {
-
+            new FormFibonacci().ShowDialog();
         }
 
         private void practica5DeIlusionesToolStripMenuItem_Click(object sender, EventArgs e)

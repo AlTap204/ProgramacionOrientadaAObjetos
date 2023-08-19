@@ -114,6 +114,9 @@
     <EmbeddedResource Include="FormEncuesta.resx">
       <DependentUpon>FormEncuesta.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FormFibonacci.resx">
+      <DependentUpon>FormFibonacci.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FormFormulaGeneral.resx">
       <DependentUpon>FormFormulaGeneral.cs</DependentUpon>
     </EmbeddedResource>
