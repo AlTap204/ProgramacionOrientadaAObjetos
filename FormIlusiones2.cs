@@ -104,5 +104,45 @@ namespace ProgramacionOrientadaAObjetos
             }
         }
 
+        private void pictureBox6_Paint(object sender, PaintEventArgs e)
+        {
+            int w = pictureBox6.Width;
+            int h = pictureBox6.Height;
+            for (int i = 0; i < w; i += 10)
+                e.Graphics.DrawEllipse(colores[7], ((w - i) / 2), ((h - i)), i, i);
+        }
+
+        private void pictureBox7_Paint(object sender, PaintEventArgs e)
+        {
+            int w = pictureBox7.Width;
+            int h = pictureBox7.Height;
+            for (int i = 0; i < w; i += 1)
+            {
+                e.Graphics.DrawLine(colores[0], w / 2, i, w - i, h - i);
+                e.Graphics.DrawLine(colores[0], h / 2, w - i, i, h - i);
+
+            }
+        }
+
+        private void pictureBox8_Paint(object sender, PaintEventArgs e)
+        {
+            int w = pictureBox8.Width;
+            int h = pictureBox8.Height;
+
+            for (int i = 0; i < h / 2; i += 5)
+            {
+                e.Graphics.DrawLine(colores[6], 0, i, i, h);
+                e.Graphics.DrawLine(colores[6], i, 0, w / 2, i);
+
+                e.Graphics.DrawLine(colores[6], w - i, 0, w / 2, i);
+                e.Graphics.DrawLine(colores[6], w, i, w - i, h);
+
+                e.Graphics.DrawLine(colores[6], 0, h / 2 + i, w / 2 - i, h);
+                e.Graphics.DrawLine(colores[6], i, h, w / 2, h - i);
+
+                e.Graphics.DrawLine(colores[6], w / 2, h / 2 + i, w / 2 + i, h);
+                e.Graphics.DrawLine(colores[6], w, h / 2 + i, w / 2 + i, h);
+            }
+        }
     }
 }
